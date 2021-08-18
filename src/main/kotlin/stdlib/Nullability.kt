@@ -43,7 +43,8 @@ fun main() {
      *              * The value now contains a real car
      *              * The value can be a "car" or "BMW" if the car is null (not a real car)
      *
-     *  In some scenarios, you might not want to play by the rules. For example, you know a variable is not a null - even thought it's optional, and you need to tell the compiler to use the value that it holds.
+     *  In some scenarios, you might not want to play by the rules. For example, you know a variable is not a null - even thought it's optional,
+     *  and you need to tell the compiler to use the value that it holds.
      *  Kotlin provides the not-null assertion operator ("!!"). If the variable contains a null value, it'll throw an NPE.
      *      car!!.drive()
      */
