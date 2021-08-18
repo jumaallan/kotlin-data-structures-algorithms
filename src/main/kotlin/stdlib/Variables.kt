@@ -35,4 +35,48 @@ fun main() {
 
     println("age $age")
 
+    /***
+     * Kotlin has several data types, but the basic types are:
+     *
+     *      Numbers
+     *          Are either
+     *              Integer Types
+     *                  * Long (to specify a Long explicitly, append the suffix "L") - 1L
+     *                  * Int - 1
+     *                  * Short
+     *                  * Byte
+     *              Floating-point Types
+     *                  * Double (16-16 decimal digits, 64 bits) - 2.7182818284
+     *                  * Float (6-7 decimal digits, 32 bits)- 2.7182818284f, actual value is 2.7182817. Floats are tagged by "F" or "f"
+     *
+     *      Characters
+     *          * Char - 'J'
+     *          * String - "Juma Allan"
+     *      Other
+     *          * Boolean - true
+     *               - Has build in operations
+     *                     * || - disjuction (logical OR) - work lazily
+     *                     * && - conjuction (logical AND) - work lazily
+     *                     * ! - negation (logical NOT)
+     *          * Array
+     *
+     *
+     *   You can use underscores to make number constants more readable
+     *      val oneMillion = 1_000_000
+     *      val bytes = 0b11010010_01101001_10010100_10010010
+     *      val creditCardNumber = 1234_5678_9012_3456L
+     *
+     *   All number types support conversions to other types
+     *      toByte() : Byte
+     *      toShort() : Short
+     *      toInt() : Int
+     *      toLong() : Long
+     *      toFloat() : Float
+     *      toDouble() : Double
+     *      toChar() : Char
+     *
+     *
+     *
+     */
+
 }
