@@ -1,6 +1,6 @@
 @file:Suppress("CanBeVal")
 
-package stdlib
+package nullability
 
 // We create a variable to hold a car
 data class Car(
